@@ -1,6 +1,4 @@
 ﻿using System;
-using DiscordBot.Storage;
-using DiscordBot.Storage.Implementations;
 
 namespace DiscordBot
 {
