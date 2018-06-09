@@ -5,7 +5,7 @@ namespace DiscordBot.Storage.Implementations
 {
     public class InMemoryStorage : IDateStorage
     {
-        private Dictionary<string, object> _dictionary = new Dictionary<string, object>();
+        private readonly Dictionary<string, object> _dictionary = new Dictionary<string, object>();
 
         public void StorObject(object obj, string key)
         {
