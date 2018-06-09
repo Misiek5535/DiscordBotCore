@@ -11,7 +11,7 @@ namespace DiscordBot
             Unity.RegisterTypes();
             Console.WriteLine("Hello, Discord!");
 
-            var a = new DiscordBotConfig
+            var discordBotConfig = new DiscordBotConfig
             {
                 Token = "ABC",
                 SocketConfig = SocketConfig.GetDefault()
